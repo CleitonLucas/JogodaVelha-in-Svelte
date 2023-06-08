@@ -3,7 +3,7 @@
   import Jogar from './Components/Jogar.svelte';
   import Menu from './Components/Menu.svelte'
   import Sobre from './Components/Sobre.svelte';
-  import {trocarestado, estado} from './Stores/Estado'
+  import {trocarestado, estado} from './Stores/estado'
 </script>
 
 <main>
