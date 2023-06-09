@@ -7,7 +7,7 @@ Um simples jogo da velha desenvolvido por Cleiton Lucas e Emanoel Carvalho usand
 
 Este é um jogo da velha clássico, onde dois jogadores competem para marcar três símbolos iguais em uma linha, coluna ou diagonal. O jogo é jogado em um tabuleiro 3x3.
 
-O projeto foi desenvolvido usando a estrutura Svelte, que é uma biblioteca JavaScript reativa para construir interfaces de usuário interativas. O jogo utiliza componentes Svelte para representar o tabuleiro e as células do jogo, além de ter um estado reativo para controlar a lógica do jogo.
+O projeto foi desenvolvido usando o framework Svelte, que é um framework JavaScript reativo para construir interfaces de usuário interativas. O jogo utiliza componentes Svelte para representar o tabuleiro e as células do jogo, além de ter um estado reativo para controlar a lógica do jogo.
 
 ## Como Executar o Jogo
 
@@ -40,7 +40,7 @@ O projeto foi desenvolvido usando a estrutura Svelte, que é uma biblioteca Java
 6. Abra o jogo em seu navegador acessando o seguinte endereço:
 
    ```
-   http://localhost:5000
+   http://localhost:5173
    ```
 
 7. Agora você pode jogar o jogo da velha no navegador. Divirta-se!
