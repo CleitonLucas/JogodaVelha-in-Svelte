@@ -1,6 +1,5 @@
 <script>
-import { trocarestado } from "../Stores/estado.js";
-
+import { trocarEstado } from "../Stores/estado";
 
 </script>
 
@@ -8,9 +7,9 @@ import { trocarestado } from "../Stores/estado.js";
     <div id="title">
         <h1>Jogo da Velha</h1>
 
-        <button on:click={() => trocarestado("jogar")}>Jogar</button>
-        <button on:click={() => trocarestado("sobre")}>Sobre</button>
-        <button on:click={() => trocarestado("ajuda")}>Ajuda</button>
+        <button on:click={() => trocarEstado("jogar")}>Jogar</button>
+        <button on:click={() => trocarEstado("sobre")}>Sobre</button>
+        <button on:click={() => trocarEstado("ajuda")}>Ajuda</button>
 
     </div>
 </main>

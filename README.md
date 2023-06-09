@@ -1,47 +1,62 @@
-# Svelte + Vite
 
-This template should help get you started developing with Svelte in Vite.
+# Jogo da Velha
 
-## Recommended IDE Setup
+Um simples jogo da velha desenvolvido por Cleiton Lucas e Emanoel Carvalho usando Svelte.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Visão Geral
 
-## Need an official Svelte framework?
+Este é um jogo da velha clássico, onde dois jogadores competem para marcar três símbolos iguais em uma linha, coluna ou diagonal. O jogo é jogado em um tabuleiro 3x3.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+O projeto foi desenvolvido usando a estrutura Svelte, que é uma biblioteca JavaScript reativa para construir interfaces de usuário interativas. O jogo utiliza componentes Svelte para representar o tabuleiro e as células do jogo, além de ter um estado reativo para controlar a lógica do jogo.
 
-## Technical considerations
+## Como Executar o Jogo
 
-**Why use this over SvelteKit?**
+1. Certifique-se de ter o Node.js instalado em sua máquina.
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+2. Clone este repositório em seu computador usando o seguinte comando:
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+   ```
+   git clone https://github.com/CleitonLucas/jogo-da-velha.git
+   ```
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+3. Acesse o diretório do projeto:
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+   ```
+   cd jogo-da-velha
+   ```
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+4. Instale as dependências do projeto:
 
-**Why include `.vscode/extensions.json`?**
+   ```
+   npm install
+   ```
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+5. Inicie o servidor de desenvolvimento:
 
-**Why enable `checkJs` in the JS template?**
+   ```
+   npm run dev
+   ```
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+6. Abra o jogo em seu navegador acessando o seguinte endereço:
 
-**Why is HMR not preserving my local component state?**
+   ```
+   http://localhost:5000
+   ```
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+7. Agora você pode jogar o jogo da velha no navegador. Divirta-se!
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+## Contribuição
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+Se você deseja contribuir para este projeto, fique à vontade para abrir uma nova issue ou enviar uma solicitação de pull. Agradecemos qualquer contribuição para melhorar o jogo.
+
+## Autores
+
+- Cleiton Lucas
+  - GitHub: [CleitonLucas](https://github.com/CleitonLucas)
+
+- Emanoel Carvalho
+  - GitHub: [emanoelCarvalho](https://github.com/emanoelCarvalho)
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.

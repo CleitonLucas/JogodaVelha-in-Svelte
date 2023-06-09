@@ -1,6 +1,6 @@
 <script>
-    import {trocarestado} from '../Stores/estado'
+    import {trocarEstado} from '../Stores/estado'
 </script>
 
 
-<button on:click={() => trocarestado("menu")}>Voltar</button>
+<button on:click={() => trocarEstado("menu")}>Voltar</button>
