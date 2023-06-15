@@ -3,7 +3,7 @@
   import Jogar from './Components/Jogar.svelte';
   import Menu from './Components/Menu.svelte'
   import Sobre from './Components/Sobre.svelte';
-  import {trocarestado, estado} from './Stores/estado'
+  import {trocarEstado, estado} from './Stores/estado'
 </script>
 
 <main>
@@ -13,7 +13,7 @@
     <Jogar/>
     {:else if $estado == "ajuda"}
     <Ajuda/>
-    {:else}
+    {:else if $estado == "sobre"}
     <Sobre/>
   {/if}
   
